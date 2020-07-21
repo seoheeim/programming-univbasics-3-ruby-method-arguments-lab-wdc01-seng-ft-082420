@@ -11,6 +11,9 @@ def introduction_with_language(name, language)
   puts "Hi, my name is #{name} and I am learing to program in #{language}."
 end
 
+def introduction_with_language_optional(name, language = "computer")
+  puts "Hi, my name is #{name} and I am learing to program in #{language}."
+end
 
 
 
